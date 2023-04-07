@@ -1,4 +1,6 @@
 <?php 
+$conn = mysqli_connect("localhost", 'anitiumn_anikat' , '010203asa*-', "anitiumn_anikat") or die("Connection fail");
+
 
 $websiteTitle = "Anitium"; // Website Name
 $websiteUrl = "//{$_SERVER['SERVER_NAME']}";  // Website URL
@@ -11,10 +13,10 @@ $version = "0.3";
 $donate = "https://patreon.com/anitium/";
 
 // Socials 
-$telegram = "https://t.me/#"; // telegram
-$discord = "https://discord.com/#"; // Discord
-$redit = "#"; // Reddit
-$twitter = "#"; // Twitter
+$telegram = "https://patreon.com/anitium/"; // telegram
+$discord = "https://patreon.com/anitium/"; // Discord
+$redit = "https://patreon.com/anitium/"; // Reddit
+$twitter = "https://patreon.com/anitium/"; // Twitter
  
 
 
